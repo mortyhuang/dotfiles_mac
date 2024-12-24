@@ -143,6 +143,9 @@ alt-shift-t = 'move-node-to-workspace T --focus-follows-window'
 alt-shift-n = 'move-node-to-workspace next --focus-follows-window --wrap-around'
 alt-shift-p = 'move-node-to-workspace prev --focus-follows-window --wrap-around'
 
+alt-n = 'move-node-to-monitor next --focus-follows-window --wrap-around'
+alt-p = 'move-node-to-monitor prev --focus-follows-window --wrap-around'
+
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
 alt-tab = 'workspace-back-and-forth'
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-workspace-to-monitor
