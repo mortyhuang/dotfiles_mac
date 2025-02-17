@@ -1,5 +1,7 @@
 patch:
   app_options:
     com.microsoft.VSCode:
-        ascii_mode: false
-        vim_mode: true
+      ascii_mode: false
+      vim_mode: true
+    style:
+      color_scheme: dark_temple
