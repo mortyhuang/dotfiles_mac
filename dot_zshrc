@@ -3,6 +3,8 @@ ZSH_THEME="spaceship"
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
+eval "$(fnm env --use-on-cd)"
+eval $(thefuck --alias)
 
 # User configuration
 
@@ -11,12 +13,14 @@ alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 alias pn="pnpm"
 alias vi="nvim"
-eval "$(fnm env --use-on-cd)"
+
+alias fgw='git branch --all | grep -v HEAD | sed "s/.* //" | sed "s#remotes/origin/##" | sort -u | fzf --prompt="选择分支 > " | xargs git checkout'
 
 # pnpm
 export PNPM_HOME="/Users/leepooool/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 
+# Android
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
 export ANDROID_HOME=/Users/leepooool/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/platform-tools
