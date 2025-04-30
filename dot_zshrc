@@ -17,8 +17,11 @@ alias vi="nvim"
 alias fgw='git branch --all | grep -v HEAD | sed "s/.* //" | sed "s#remotes/origin/##" | sort -u | fzf --prompt="选择分支 > " | xargs git checkout'
 
 # pnpm
-export PNPM_HOME="/Users/leepooool/Library/pnpm"
+export PNPM_HOME="/Users/morty/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
+
+
+# . "$HOME/.local/bin/env"
 
 # Android
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
