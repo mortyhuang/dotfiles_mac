@@ -3,5 +3,11 @@ patch:
     com.microsoft.VSCode:
       ascii_mode: false
       vim_mode: true
-  "style/color_scheme": dark_temple
-  "style/color_scheme_dark": dark_temple
+    md.obsidian:
+      ascii_mode: false
+      vim_mode: true
+    net.kovidgoyal.kitty:
+      ascii_mode: false
+      vim_mode: true
+    style:
+     color_scheme: dark_temple

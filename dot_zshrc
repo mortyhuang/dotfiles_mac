@@ -20,10 +20,24 @@ alias fgw='git branch --all | grep -v HEAD | sed "s/.* //" | sed "s#remotes/orig
 export PNPM_HOME="/Users/morty/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 
-
-# . "$HOME/.local/bin/env"
-
 # Android
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
 export ANDROID_HOME=/Users/leepooool/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+#golang
+export PATH="/opt/homebrew/opt/go@1.21/bin:$PATH"
+export PATH="/Users/morty/go/bin:$PATH"
+
+#php
+export PATH="/opt/homebrew/opt/php@7.3/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@7.3/sbin:$PATH"
+
+# bun completions
+[ -s "/Users/morty/.bun/_bun" ] && source "/Users/morty/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+. "$HOME/.local/bin/env"
