@@ -1,0 +1,20 @@
+patch:
+  app_options:
+    com.microsoft.VSCode:
+      ascii_mode: true
+      vim_mode: true
+    md.obsidian:
+      ascii_mode: true
+      vim_mode: true
+    net.kovidgoyal.kitty:
+      ascii_mode: true
+      vim_mode: true
+    dev.zed.Zed:
+      ascii_mode: true
+      vim_mode: true
+    com.google.Chrome:
+      ascii_mode: true
+      vim_mode: false
+    com.tinyspeck.slackmacgap:
+      ascii_mode: true
+      vim_mode: false
