@@ -18,3 +18,5 @@ patch:
     com.tinyspeck.slackmacgap:
       ascii_mode: true
       vim_mode: false
+  "style/color_scheme": dark_temple
+  "style/color_scheme_dark": dark_temple

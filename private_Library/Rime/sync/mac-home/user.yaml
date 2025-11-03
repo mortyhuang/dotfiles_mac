@@ -1,2 +1,4 @@
 var:
-  last_build_time: 1762136447
+  last_build_time: 1762175495
+  option:
+    traditionalization: false
